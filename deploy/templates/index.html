@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Churn Prediction</title>
+</head>
+<body>
+<h2>Customer Churn Predictor</h2>
+<form method="post" action="{% url 'result' %}">
+    {% csrf_token %}
+    <div class="form-group">
+        <input placeholder="Tenure" name="Tenure">
+    </div>
+    <div class="form-group">
+        <input placeholder="PreferredLoginDevice" name="PreferredLoginDevice">
+    </div>
+    <div class="form-group">
+        <input placeholder="CityTier" name="CityTier">
+    </div>
+    <div class="form-group">
+        <input placeholder="WarehouseToHome" name="WarehouseToHome">
+    </div>
+    <div class="form-group">
+        <input placeholder="PreferredPaymentMode" name="PreferredPaymentMode">
+    </div>
+    <div class="form-group">
+        <input placeholder="Gender" name="Gender">
+    </div>
+    <div class="form-group">
+        <input placeholder="HourSpendOnApp" name="HourSpendOnApp">
+    </div>
+    <div class="form-group">
+        <input placeholder="NumberOfDeviceRegistered" name="NumberOfDeviceRegistered">
+    </div>
+    <div class="form-group">
+        <input placeholder="PreferedOrderCat" name="PreferedOrderCat">
+    </div>
+    <div class="form-group">
+        <input placeholder="SatisfactionScore" name="SatisfactionScore">
+    </div>
+    <div class="form-group">
+        <input placeholder="MaritalStatus" name="MaritalStatus">
+    </div>
+    <div class="form-group">
+        <input placeholder="NumberOfAddress" name="NumberOfAddress">
+    </div>
+    <div class="form-group">
+        <input placeholder="Complain" name="Complain">
+    </div>
+    <div class="form-group">
+        <input placeholder="OrderAmountHikeFromlastYear" name="OrderAmountHikeFromlastYear">
+    </div>
+    <div class="form-group">
+        <input placeholder="OrderCount" name="OrderCount">
+    </div>
+    <div class="form-group">
+        <input placeholder="DaySinceLastOrder" name="DaySinceLastOrder">
+    </div>
+    <div class="form-group">
+        <input placeholder="CashbackAmount" name="CashbackAmount">
+    </div>
+    <div class="configuration-box action-btn pt-0 text-right">
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </div>
+</form>
+</body>
+</html>
