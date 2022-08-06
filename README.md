@@ -22,6 +22,9 @@ This will setup the virtual environment with all required packages
 3. Finally setup-up your DB in django by going to settings.py file and changing DB detail accordingly.
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Data Science:** Pandas, Clustering, StandardScaler, sklearn, LinearDiscriminantAnalysis, LogisticRegression, GridSearchCV, SMOTE
 
-**Server:** Node, Express
+**Back End:** Django, Postegres DB
+
+**Front End:** Node, Express
+
