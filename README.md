@@ -26,6 +26,6 @@ This will setup the virtual environment with all required packages
 
 **Back End:** Django, Postegres DB
 
-**Front End:** Node, Express
+**Front End:** HTML
 
 
