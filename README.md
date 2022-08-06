@@ -28,4 +28,6 @@ This will setup the virtual environment with all required packages
 
 **Front End:** HTML
 
+## Documentation
 
+[Documentation](https://github.com/rahulkumarhere/ML_Project/blob/master/deploy/model_data/Capstone_Project_FinalReport_Rahul_Kumar.docx)
